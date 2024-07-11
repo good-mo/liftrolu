@@ -18,5 +18,10 @@ def wordcount(text):
         count[word]=count.get(word,0)+1
     return count
 
+text="""Hello world!  
+This is an example.  
+Word count is fun.  
+Is it fun to count words?  
+Yes, it is fun!"""
 result=wordcount(text)
 print(result)
